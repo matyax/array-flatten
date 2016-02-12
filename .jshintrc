@@ -1,0 +1,23 @@
+{
+  "globals": {
+    "$"           : false,
+    "angular"     : false,
+    "console"     : false,
+    "$timeout"    : false,
+    "Promise"     : false,
+    "Request"     : false,
+    "App"         : false,
+    "jQuery"      : false,
+    "$"           : false,
+    "moment"      : false,
+    "console"     : false
+  },
+  "quotmark"      : true,
+  "undef"         : true,
+  "unused"        : true,
+  "curly"         : true,
+  "eqeqeq"        : true,
+  "maxdepth"      : 4,
+  "maxstatements" : 15,
+  "browser"       : true
+}
