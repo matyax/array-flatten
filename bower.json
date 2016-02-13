@@ -1,0 +1,22 @@
+{
+  "name": "array-flatten",
+  "homepage": "https://github.com/matyax/array-flatten",
+  "authors": [
+    "Matias Chomicki <matyax@gmail.com>"
+  ],
+  "description": "Array flatten programming exercise",
+  "main": "main.js",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "qunit": "^1.21.0"
+  }
+}
