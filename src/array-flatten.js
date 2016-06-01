@@ -3,17 +3,13 @@ function arrayFlatten(input) { 'use strict';
         return [];
     }
 
-    var output = [];
-
-    input.forEach(function (element) {
+    return input.reduce(function (output, element) {
         if (element.constructor === Array) {
-            output = output.concat(arrayFlatten(element));
-
-            return;
+            return output.concat(arrayFlatten(element));
         }
 
-        output.push(element);
-    });
+        output.push(element)
 
-    return output;
+        return output;
+    }, []);
 }
